@@ -1,0 +1,134 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./assets/snapedit_1715304792157.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.content {
+    max-width: 750px;
+    padding: 20px;
+}
+
+.text {
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+}
+
+.texto {
+    font-weight: bold;
+    font-size: large;
+    color: white;
+    line-height: 1px;
+}
+
+.imga {
+    border-radius: 2rem;
+
+}
+
+input {
+    background: none;
+    width: 30rem;
+    border-radius: 11px;
+    padding: 5px;
+    color: white;
+}
+
+
+
+
+
+.forms {
+    text-align: center;
+    background: #5c59594d;
+    padding: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 1rem;
+}
+
+.divo {
+    text-align: center;
+}
+
+.toto {
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: white;
+    text-align: center;
+}
+
+.nono {
+    border-radius: 1rem;
+    background: none;
+    width: 30rem;
+    padding: 5px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px) {
+    .content {
+        max-width: 26rem;
+        padding: 20px;
+    }
+
+    .nono {
+        border-radius: 1rem;
+        background: none;
+        width: 10rem;
+        padding: 5px;
+        color: white;
+    }
+
+    .text {
+        font-weight: bold;
+        font-size: x-large;
+        color: white;
+    }
+
+    .texto {
+        font-weight: bold;
+        font-size: small;
+        color: white;
+
+    }
+
+    .imga {
+        border-radius: 2rem;
+    }
+
+    input {
+        background: none;
+        width: 10rem;
+        border-radius: 11px;
+        padding: 5px;
+        color: white;
+    }
+
+    .forms {
+        text-align: center;
+        background: #5c59594d;
+        padding: 15px;
+        font-family: 'Times New Roman', Times, serif;
+        color: white;
+        font-size: small;
+        font-weight: bold;
+        border-radius: 1rem;
+    }
+
+    .toto {
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: bold;
+        font-size: x-large;
+        color: white;
+        text-align: center;
+    }
+}
